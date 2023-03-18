@@ -1,0 +1,117 @@
+/* Global styles */
+
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Banner styles */
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0096c7;
+  color: #ffffff;
+  padding: 20px;
+}
+
+.name {
+  font-size: 40px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.logo {
+  height: 160px;
+}
+
+.links {
+  display: flex;
+  font-size: 20px;
+}
+
+.links a {
+  color: #4A00FF;
+  text-decoration: none;
+  background-color: #B5FF00;
+  padding: 5px 5px;
+  margin-left: 5px;
+  border-radius: 5px;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+/* Introduction styles */
+
+.introduction {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.introduction p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Portfolio styles */
+
+.portfolio {
+  display:grid;
+  grid-template-columns: repeat(auto-fit,minmax(25px,10fr));
+  gap: 3px;
+  margin: 20px;
+}
+.portfolio img {
+width: 100%;
+  height: auto-fit;
+  border-radius: 5px;
+  padding: 1px;
+}
+
+/* Footer styles */
+
+footer {
+  text-align: center;
+  background-color: #f5f5f5;
+  padding: 10px;
+}
+
+footer p {
+  font-size: 14px;
+  color: #333333;
+}
+/* Link styles */
+
+a {
+  color: #4A00FF;
+  text-decoration: none;
+  background-color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #ffffff;
+  background-color: #0096c7;
+}
+.name {
+        font-family:'Lobster', cursive;
+        color: #DD1300;
+        background-color: #001D42;
+        padding:1.5%;
+        border-radius: 7px;
+        text-shadow: 5px 5px 5px rgba(0,0,1,4);
+}
+h1 {
+    font-family: fantasy;
+    background-color: #EDEDF4;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 3px;
+}
